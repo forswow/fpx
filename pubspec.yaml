@@ -1,0 +1,58 @@
+name: crypto_faucet
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.4+5
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  
+  cupertino_icons: ^1.0.2
+  get: ^4.6.1
+  flutter_staggered_animations: ^1.0.0
+  get_storage: ^2.0.3
+  http: any
+  auto_size_text: any
+  day_night_switcher: any
+  flutter_inappwebview: ^5.4.3+7
+  awesome_notifications: any
+  json_annotation: ^4.4.0
+  url_launcher: ^6.1.2
+  flutter_markdown: ^0.6.10
+  google_mobile_ads: ^1.2.0
+  in_app_review: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: Signika
+      fonts:
+        - asset: assets/fonts/Signika-Regular.ttf
+        - asset: assets/fonts/Signika-Bold.ttf
+        - asset: assets/fonts/Signika-Medium.ttf
+        - asset: assets/fonts/Signika-Light.ttf
+        - asset: assets/fonts/Signika-SemiBold.ttf
+
