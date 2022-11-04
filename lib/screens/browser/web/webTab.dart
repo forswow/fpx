@@ -8,7 +8,9 @@ import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:get/get.dart';
 
 import '../browserSettings.dart';
-import '../ui/mini.dart';
+
+import '../mini/mini.dart';
+import '../mini/mini_controller.dart';
 import 'webController.dart';
 
 class WebTab extends StatelessWidget {
@@ -78,7 +80,7 @@ class WebTab extends StatelessWidget {
               // MiniatureProvider().updateMiniature(mini.miniatureProvider);
             }
 
-            log('//THISURL: $url');
+            log('///THISURL: $url');
             log('TITLE: ${webProvider.title}');
             log("LOADSTOP: ${i++}");
 

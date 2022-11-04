@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../../utils/const.dart';
-import '../web/webController.dart';
-import 'custom_image.dart';
+import '../ui/custom_image.dart';
+
+import 'mini_controller.dart';
 
 class Mini extends StatelessWidget {
   const Mini({

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
 import '../../../utils/const.dart';
+import '../mini/mini.dart';
 import 'close_button.dart';
-import 'mini.dart';
+
 
 class Miniature extends StatelessWidget {
   const Miniature({

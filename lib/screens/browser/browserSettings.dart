@@ -4,7 +4,8 @@ import 'dart:developer';
 
 import 'package:get/state_manager.dart';
 
-import 'ui/mini.dart';
+import 'mini/mini.dart';
+import 'mini/mini_controller.dart';
 import 'web/webController.dart';
 import 'web/webTab.dart';
 
