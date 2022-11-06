@@ -37,12 +37,7 @@ class DataJson extends GetConnect {
     }
   }
 
-  Future refList() async {
-    final resp = await get('https://api.npoint.io/398fdb6584be804eaf88');
-    if (resp.statusCode == 200) {
-      return resp.body;
-    }
-  }
+  
 
   Future<List<FaucetPay>> fetchData() async {
     final response = await http.get(Uri.parse(_url));
